@@ -17,6 +17,8 @@ echarts version 4.2.0-rc.2
 
 - 目前已经修复组件因为onload发生的闪烁，这意味着可以不用组件setOption的实例方法，直接通过修改当容器组件的绑定的state值，setState操作，然后secharts组件会监听 state中option的改变，来进行option修改。当然组件实例方法setOption还是可以使用的，只是有bug，不推荐而已。
 
+
+发现bug  RN 版本0.595  图标不能正常加载  请进入源码更改webView路径 更换其为url路径即可
 ## 安装步骤
 
 1. 安装依赖
